@@ -1,0 +1,9 @@
+{
+	"name": "states",
+	"description": "States and their abbreviations and FIPS codes",
+	"keys": ["fips","abbr_two_letter","name","abbr_ap","abbr_chicago"],
+	"sources": [
+		"https://www.census.gov/geo/reference/ansi_statetables.html",
+		"http://www.apvschicago.com/2011/05/state-abbreviations-use-traditional-or.html"
+	]
+}

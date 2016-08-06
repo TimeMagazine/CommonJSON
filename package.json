@@ -1,0 +1,30 @@
+{
+  "name": "lookup_tables",
+  "version": "0.0.1",
+  "description": "Your one-stop shop for common JSON lookup files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommonJSON/lookup_tables.git"
+  },
+  "keywords": [
+    "JSON",
+    "lookup",
+    "fips",
+    "states"
+  ],
+  "author": "Chris Wilson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CommonJSON/lookup_tables/issues"
+  },
+  "homepage": "https://github.com/CommonJSON/lookup_tables#readme",
+  "dependencies": {
+    "fast-csv": "^2.1.0",
+    "minimist": "^1.2.0",
+    "mkdirp": "^0.5.1"
+  }
+}
