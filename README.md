@@ -25,4 +25,9 @@ If you want to add something to this repo--and please do!--then you just need to
 
 Both files should have a unique and identical name that describes the data, like "states" or "counties."
 
-Then just run `node index.js <name>` to generate the JSON lookup files. *All JSON files are generated programmatically.* You should never directly place a file in the `json` directory.
+Then just run `npm install` (once) and `node index.js <name>` to generate the JSON lookup files. *All JSON files are generated programmatically.* You should never directly place a file in the `json` directory.
+
+All suggestions for additions welcome: wilson@mechanicalscribe.com.
+
+## Contributors
++ Chris Wilson (@wilson428)
