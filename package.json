@@ -1,6 +1,6 @@
 {
-  "name": "lookup_tables",
-  "version": "0.0.1",
+  "name": "CommonJSON",
+  "version": "0.0.2",
   "description": "Your one-stop shop for common JSON lookup files.",
   "main": "index.js",
   "scripts": {
@@ -8,25 +8,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CommonJSON/lookup_tables.git"
+    "url": "git+https://github.com/TimeMagazine/CommonJSON.git"
   },
   "keywords": [
     "JSON",
     "lookup",
     "fips",
-    "states"
+    "states",
+    "counties"
   ],
   "author": "Chris Wilson",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/CommonJSON/lookup_tables/issues"
+    "url": "https://github.com/TimeMagazine/CommonJSON/issues"
   },
-  "homepage": "https://github.com/CommonJSON/lookup_tables#readme",
+  "homepage": "https://github.com/TimeMagazine/CommonJSON#readme",
   "dependencies": {
-    "cheerio": "^0.20.0",
     "fast-csv": "^2.1.0",
     "minimist": "^1.2.0",
-    "mkdirp": "^0.5.1",
-    "request": "^2.74.0"
+    "mkdirp": "^0.5.1"
   }
 }
