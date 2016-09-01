@@ -23,8 +23,10 @@
   },
   "homepage": "https://github.com/CommonJSON/lookup_tables#readme",
   "dependencies": {
+    "cheerio": "^0.20.0",
     "fast-csv": "^2.1.0",
     "minimist": "^1.2.0",
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "request": "^2.74.0"
   }
 }

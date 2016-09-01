@@ -16,8 +16,8 @@ if (!fs.existsSync(__dirname + "/schema/" + key + ".json")) {
 	return;
 }
 
-if (!fs.existsSync(__dirname + "/source/" + key + ".csv")) {
-	console.log("I couldn't find", key + ".csv", "in the source directory. (See README).")
+if (!fs.existsSync(__dirname + "/csv/" + key + ".csv")) {
+	console.log("I couldn't find", key + ".csv", "in the csv directory. (See README).")
 	return;
 }
 
@@ -34,7 +34,7 @@ mkdirp(__dirname + "/json/" + key, function(err) {
 	// read the csv
 	var data = [];
 
-	var stream = fs.createReadStream(__dirname + "/source/" + key + ".csv");
+	var stream = fs.createReadStream(__dirname + "/csv/" + key + ".csv");
 
 	var csvStream = csv({ headers: true })
 	    .on("data", function(datum){

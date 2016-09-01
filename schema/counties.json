@@ -1,0 +1,11 @@
+{
+	"name": "counties",
+	"description": "Counties and their states and FIPS codes",
+	"keys": ["fips","name_st","name_state"],
+	"sources": [
+		"https://www.census.gov/geo/reference/codes/cou.html"
+	],
+	"scripts": [
+		"scripts/makeCounties.js"
+	]
+}

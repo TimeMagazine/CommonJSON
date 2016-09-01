@@ -6,6 +6,7 @@ If you just want to use the JSON files, *you do not have to run any code*. Just 
 
 # Contents
 + [states](json/states): Name, FIPS code, two-letter abbreviation, AP abbreviation, Chicago Manual of Style abbreviation
++ [counties](json/counties): Name, FIPS code, state, state abbreviation, name with state, name with state abbreviation, type
 
 # How to contribute
 If you want to add something to this repo--and please do!--then you just need to add two files:
