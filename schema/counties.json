@@ -5,7 +5,5 @@
 	"sources": [
 		"https://www.census.gov/geo/reference/codes/cou.html"
 	],
-	"scripts": [
-		"scripts/makeCounties.js"
-	]
+	"script": "scripts/counties.js"
 }

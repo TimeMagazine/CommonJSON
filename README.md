@@ -10,17 +10,18 @@ If you just want to use the JSON files, *you do not have to run any code*. Just 
 
 # How to contribute
 If you want to add something to this repo--and please do!--then you just need to add two files:
-+ A csv file with the source data and a header row, which you place in the `source` directory
++ The raw file unmodified from the source, which you place in the `raw` directory
++ A csv file with the source data and a header row, which you place in the `csv` directory. This may require running some transformations. If so, place that script in the `scripts` directory.
 + A schema file that describes the data, where you found it, and which columns you want to generate lookup files for in the `keys` property. For example:
 ```
 {
-	"name": "states",
-	"description": "States and their abbreviations and FIPS codes",
-	"keys": ["fips","abbr_two_letter","name","abbr_ap","abbr_chicago"],
+	"name": "counties",
+	"description": "Counties and their states and FIPS codes",
+	"keys": ["fips","name_st","name_state"],
 	"sources": [
-		"https://www.census.gov/geo/reference/ansi_statetables.html",
-		"http://www.apvschicago.com/2011/05/state-abbreviations-use-traditional-or.html"
-	]
+		"https://www.census.gov/geo/reference/codes/cou.html"
+	],
+	"script": "scripts/counties.js"
 }
 ```
 
